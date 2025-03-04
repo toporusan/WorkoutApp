@@ -33,7 +33,7 @@
 		FA812CF02D6F0D4B00C0C0A9 /* Exceptions for "WorkoutApp" folder in "WorkoutApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				SuppotingFiles/Info.plist,
 			);
 			target = FA812CC72D6F0D4A00C0C0A9 /* WorkoutApp */;
 		};
@@ -46,16 +46,6 @@
 				FA812CF02D6F0D4B00C0C0A9 /* Exceptions for "WorkoutApp" folder in "WorkoutApp" target */,
 			);
 			path = WorkoutApp;
-			sourceTree = "<group>";
-		};
-		FA812CE12D6F0D4B00C0C0A9 /* WorkoutAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WorkoutAppTests;
-			sourceTree = "<group>";
-		};
-		FA812CEB2D6F0D4B00C0C0A9 /* WorkoutAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WorkoutAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				FA812CCA2D6F0D4A00C0C0A9 /* WorkoutApp */,
-				FA812CE12D6F0D4B00C0C0A9 /* WorkoutAppTests */,
-				FA812CEB2D6F0D4B00C0C0A9 /* WorkoutAppUITests */,
 				FA812CC92D6F0D4A00C0C0A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				FA812CE02D6F0D4B00C0C0A9 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				FA812CE12D6F0D4B00C0C0A9 /* WorkoutAppTests */,
-			);
 			name = WorkoutAppTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				FA812CEA2D6F0D4B00C0C0A9 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				FA812CEB2D6F0D4B00C0C0A9 /* WorkoutAppUITests */,
 			);
 			name = WorkoutAppUITests;
 			packageProductDependencies = (
@@ -291,12 +273,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BRPRK2DFUY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorkoutApp/Info.plist;
+				INFOPLIST_FILE = WorkoutApp/SuppotingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,12 +299,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BRPRK2DFUY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorkoutApp/Info.plist;
+				INFOPLIST_FILE = WorkoutApp/SuppotingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
